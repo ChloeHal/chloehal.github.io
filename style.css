@@ -4,7 +4,9 @@ html {
     box-sizing: border-box;
     font-size: 12px;
     display: block;
-    background-color: #bccdb7;
+    background-color: #dcbfed;
+    background-image: linear-gradient(62deg, #dcbfed 0%, #cecfc7 100%);
+    
  }
  .intro {
     font-family: 'Reem Kufi', sans-serif;
@@ -12,38 +14,28 @@ html {
     font-weight: 600;
     text-align: center;
     color: #28587b;
-
-
-   
-        
-        overflow: hidden; /* Ensures the content is not revealed until the animation */
-        border-right: .15em solid black; /* The typwriter cursor */
-        white-space: nowrap; /* Keeps the content on a single line */
-        margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+/*Effet Typwritting*/
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: .15em solid black; /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
        
-        animation: 
-          typing 3s steps(30, end),
-          blink-caret .5s step-end infinite;
+    animation: 
+    typing 3s steps(30, end),
+    blink-caret .5s step-end infinite;
       }
-      
-      /* The typing effect */
+    /* The typing effect */
       @keyframes typing {
         from { width: 0 }
         to { width: 100% }
       }
-      
-      /* The typewriter cursor effect */
+    /* The typewriter cursor effect */
       @keyframes blink-caret {
         from, to { border-color: transparent }
         50% { border-color: #28587b
          }
-      
-      
-
-
-
-
  }
+
 main {
     display: flex;
     flex-direction: column;
