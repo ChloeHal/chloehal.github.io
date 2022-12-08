@@ -9,7 +9,7 @@ html {
     
  }
  .intro {
-    font-family: 'Reem Kufi', sans-serif;
+    font-family: 'Roboto Mono';
     font-size: 3.75em;
     font-weight: 600;
     text-align: center;
@@ -57,3 +57,5 @@ i {
 }
 i:hover {
     color: #28587b;}
+
+    
